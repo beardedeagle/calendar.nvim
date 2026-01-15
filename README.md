@@ -60,6 +60,7 @@ require('calendar').setup({
     next_week = 'j',
     previous_week = 'k',
     today = 't',
+    close = 'q',
   },
   highlights = {
     current = 'Visual',
