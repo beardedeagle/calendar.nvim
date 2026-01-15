@@ -60,6 +60,12 @@ local function render_lines(year, month, grid)
   local lines = {}
   local CALENDAR_WIDTH, WEEKDAY_WIDTH = 33, 3
 
+  -- check if locale exists
+  if not locales[locale] then
+    locales = require('calendar.locales')
+    locale = 'en-US'
+  end
+
   local months = locales[locale].months
   local year_month = locales[locale].year_month(year, month, months)
   table.insert(lines, center(year_month, CALENDAR_WIDTH))
