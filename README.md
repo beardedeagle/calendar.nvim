@@ -19,7 +19,7 @@ A minimal calendar plugin for Neovim.
 - [🧩 Custom extensions](#-custom-extensions)
     - [register extension manually](#register-extension-manually)
     - [automatically extensions](#automatically-extensions)
-- [Screenshots](#screenshots)
+- [🖼️ Screenshots](#-screenshots)
 - [📣 Self-Promotion](#-self-promotion)
 - [💬 Feedback](#-feedback)
 - [🙏 Credits](#-credits)
@@ -163,7 +163,7 @@ extension.actions = {
 return extension
 ```
 
-## Screenshots
+## 🖼️ Screenshots
 
 ![calendar-intro](https://github.com/user-attachments/assets/cc774407-92f7-490b-b9b3-34d62886fbf8)
 
