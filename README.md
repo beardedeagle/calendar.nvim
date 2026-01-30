@@ -1,6 +1,8 @@
 # calendar.nvim
 
-A minimal calendar plugin for Neovim.
+A lightweight and extensible pure-Lua monthly calendar plugin for Neovim,
+featuring Vim-style navigation, customizable day highlights and marks,
+and a simple extension system for integrating your own workflows.
 
 [![GitHub License](https://img.shields.io/github/license/wsdjeg/calendar.nvim)](LICENSE)
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/wsdjeg/calendar.nvim)](https://github.com/wsdjeg/calendar.nvim/issues)
