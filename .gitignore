@@ -1,0 +1,16 @@
+# Compiled Lua files
+*.luac
+
+# Swap and backup files
+*.swp
+*.swo
+*~
+*.bak
+
+# Test dependencies (downloaded by install_deps.lua)
+test/.deps/
+
+# Test artifacts
+test/*.out
+test/*.lua~
+
