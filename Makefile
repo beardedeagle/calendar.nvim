@@ -1,4 +1,4 @@
-.PHONY: test test-all test-verbose clean install-deps install-luaunit help
+.PHONY: test clean install-deps install-luaunit help
 
 # Default target
 help:

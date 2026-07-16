@@ -40,6 +40,10 @@ jobs:
         if: runner.os == 'macOS'
         run: brew install curl
 
+      - name: Install dependencies (Windows)
+        if: runner.os == 'Windows'
+        run: choco install curl
+
       - name: Cache test dependencies
         uses: actions/cache@v4
         with:
